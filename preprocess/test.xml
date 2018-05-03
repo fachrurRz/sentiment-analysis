@@ -1,0 +1,376 @@
+<corpus>
+  <review rid="1">
+		<text> Iseng banget kesini sama temen karena udah lama pengen kesini . Dan aku ngerti kenapa tempat ini hype banget . Suasananya enak , bagus buat foto2 , dan MAKANANNYA ENAK SEMUA ! ! ! ! Aku dan temenku kalap banget beli semua makanan . Waitressnya baik semua juga . Pesen ayam keranjang yang enak banget itu , sate ayam , roti goreng , dan ubi crispy buat makanannya . Overall makanan enak semua . Minumannya pun namanya lucu2 . Aku pesen pelangi di matamu . Very highly recommended buat yang mau ngobrol santai cantik .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="2">
+		<text> Ke patbingsoo karena pengen coba sojunya . Pesan patbingsoony yang cukup bikin syok krena harganya mahal tapi porsinya kecil sekali . Dan juga coba yakult soju mix . Campuran soju dan yakult yang menurut saya nyambung rasanya , rasa soju dan yakultnya masih tetap terasa satu sama lain walau dicampur . Untuk yang lain sih oke walaupun tidak ada yang spesial .</text>
+		<aspects>
+			<aspect category="PRICE" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="3">
+		<text> Restoran babi guling a la Bali ini cukup menyenangkan . Ada beberapa menu utama seperti Paket Bigul Besar dengan harga hanya Rp.48.000 . Rasanya sendiri enak tapi IMO tidak terlalu istimewa kalau dibandingkan dengan restoran-restoran babi guling yang ada di Bali . Lawarnya cukup enak , dan overall semuanya tidak terlalu pedas . Menu babi gorengnya cukup enak dan gurih . Kalau ke Ko Made jangan kemalaman , karena bisa kehabisan kulit babi yang krusial . Selain babi guling , juga ada menu seperti Ayam Betutu dan Babi Cabe Matah .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="4">
+		<text> Cafe dengan konsep unik menjual segala jenis minuman sehat dan jamu jamu lainnya . Tempatnya enak bgt untuk ketemu kerabat sekedar minum dan nyemil aja . Saya pesan Green Tamarind , Nasi Goreng , Singkong Goreng dan Kentang Gendud . Untuk yg suka Jamu boleh kesini karna banyak macem nya dan ga semua jamu pahit . Green Tamarind seger banget dengan Sayur Sawi dan Kunyit . Tempatnya agak nyempil cuman mudah ditemukan di jalan petogogan , staff disini ramah banget jd betah nongkrong dsni .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="5">
+		<text> Kalo ke BSD wajib kesini . Ada di lantai 2 breeze . Ah tempatnya bagus dan nyaman parah . Ada wifi . Ada colokan . Udah deh kelar . Kesini karena tertarik interiornya dan akhirnya pesen makanan juga walaupun sebenernya ngga laper , yang saya coba : Spaghetti aglio olio . Rasanya enak , porsinya mungkin bagi orang lain pas tapi bagi saya kurang kenyang ahaha padahal saya lagi tergolong ngga laper loh , mungkin sengaja ya biar order yang lain . Iya akhirnya saya order beef pizza apa gitu namanya , ini juga enak ! Beefnya kerasa , bumbunya juga enak ngga hambar . Oke jadi the fool ini ngga hanya ngandelin tempat yang bagus dan super keren tapi kualitas makanan dijaga dengan baik . Ya tapi minusnya pesanannya lama sampainya : ( keburu kelaperan deh kalo yang emang udah kelaperan beneran huhu .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="6">
+		<text> Cukup sering kesini karna harga , rasa , pelayanan , porsi semuanya worth it . Harganya tergolong murah dibanding resto selantai lainnya di GI . suka banget sama martabak mininya yg lembut dan pesen makanannya jg cepet bgt dianter . cuma sayang lama dibagian pembayaran , saking agak keselnya sampe gue berdiri pantengin cashiernya , agak heran cuma ngeprint bill doang sampe bisa 20menit . tp itu ga terlalu masalah bgt krn yg penting pesen makan cepet dianter , rasanya enak , porsinya sesuai dan bayar murah .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="7">
+		<text> Kesini utk buffett sarapan . Tempatnya cukup pewe dan seger krn ada gemericik air . Ga heran kalo penuh terus . Makanannya standar pesan chicken sandwich dengan burger bun dan egg benedict . Porsi cukup besar , agak ngos ngos an habisinnya . Harga ya lumayan agak mahal .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="NEGATIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="8">
+		<text> Kesini buat hangout sama temen-temen . Pesen French Fries with Cheese dan Mocha Latte . Kentangnya enak , kejunya dicampur semacam mustard gitu kayaknya soalnya ada rasa asem-asem gurihnya . Untuk kopinya juga enak , paduan rasa kopi sama gula dan mochanya balance menurutku . Jadi nggak terlalu manis atau pahit . Cuma sayangnya tempatnya kecil dan agak crowded .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="9">
+		<text> udah agak lama sebenarnya kesini sekitar awal tahun 2014 dan baru sekarang reviewnya hehe dan fotonya juga udah lama keapus . Tapi interiornya keren sih karna jaman dulu kyknya blm trlalu hits bgt instagrammer hunting foto lucu kyk setahun belakangan jd ya ga trlalu bnyk motoin tempatnya . Over all sih tempatnya lumayan . Kenapa lumayan ? Karna ga bisa lupa sama menu Nyonya Style Fish ala Waha Kitchennya yang rasanya super luar biasa tajem , melekat , enak bangetttt , penuh rempah-rempahnya itu loh dan tak terlupakan pokoknya haha tapi kekurangannya adalah lampunya yg agak remang dikit jd ga bagus buat foto karna difoto jd agak gelap . Ntah gatau ya kalau sekarang bagaimana . Pelayanan sih ok ya secara hotel gt loh jd harganya jg ya dimaklumi . Suasananya jg biasa aja sih dan markirnya agak susah , itu yg membuat agak ga terlalu tertarik untuk balik lg : )</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="10">
+		<text> Rasa Remboelan cocok di lidah lokal maupun internasional . Bumbunya oke dan ga terlalu kuat , jadi buat yang suka banyak bumbu , ini kurang cocok . Harganya oke banget , ada pilihan private room jg yg cocok buat kumpul-kumpul . Pilihan makanannya banyak . Yang recommended nasi goreng , udang goreng mayones daaaan tongsengnya . Untuk appetizer harus dicoba otak-otaknya . Mantep , gede-gede . Overall Remboelan memuaskan .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="11">
+		<text> Pelayanannya yaa okelah . tempatnya bernuansa merah emang ala ala jepang banget . ramennya enakkk . gue akuin ini salah satu ramen terenak yang gue coba selama ini . chicken brothnya gurih banget , pedes dan telur setengah matangnya yang paling menggoda . yang paling disuka kalo kesini lo mau add bawang goreng bisa sepuasnya karna di meja di sediain bawang putih dan bawang goreng semangkok . pokoknya bakal kesini lagi cobain yang soyu ramennya .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="12">
+		<text> Suka sekali dengan suasana kafe lama dengan menu2 makanan tradisional , tempatnya juga menyenangkan . Kami memesan pisang keju coklat , pempek palembang , teh , marquisa squash dan lumpia ,</text>
+		<aspects>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="13">
+		<text> Sempet lewatin resto ini beberapa kali tapi ga pernah kepikiran untuk mampir . Sampe denger review dari orang-orang kalo disini makanannya enak baru deh kesini . Pas kesini udah makn dulu sebelumnya jadi udah agak kenyang . Jadi cuma pesen roti dengan saus carbonara yg gw lupa nama menunya tapi harus di coba banget . Itu enak banget loh . cuma disana memang tempat makan sih bukan nongkrong jadi agak kurang nyaman buat nongkrong lama .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="14">
+		<text> kesini gara2 diajak sama temen berhubung ada voucher . Untuk tempatnya sebenernya cukup nyaman , mungkin untuk placement tempat piring kotor bisa dipindah biar ga deket pelanggan.Kesini bertiga , masing masing nyoba pizza marinara , meat eater dan pizza yang jamur . Untuk pizzanya rasanya enak , sayang untuk yang marinara kadang kerasa amis pas di mulut . Untuk pastanya nyoba dua aglio olio dan satu pesto , overall sangat berminyak , entah darimana sumbernya . Untuk side dish , nyoba chili fries yang cukup enak . Untuk dessert nyoba semacam calzone dan caramel banana pizza yang cukup memuaskan , apalagi ditambah es krim yang bikin makin lezat :9 . Overall , quite nice . Tapi mungkin not good enough</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="15">
+		<text> Mampir ke Ncek Legenda bareng dengan teman kantor di hari Jumat siang . Karena meja keiisi semua kita harus tunggu skitar 30 menit . Bakmi chasiu panggang porsi camatnya yummy . Mienya pas dan tidak terlalu keras , daging chasiu juga tidak sepet . Nasi campurnya oke . Untuk minum kita cobain susu kacang , rasanya beda dari susu kacang yg biasa sy minum , tapi enak loh ! Yang agak disayangkan adalah servisnya yang suangattt lama apalagi pada saat jam makan siang . Agak mikir lagi sih kalau diajak ke sini , takut perut keburu keroncongan parah . Harga makanan bersahabat tidak jauh berbeda dengan kedai2 bakmi yang lain</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="16">
+		<text> Tempatnya di Gunawarman 30 , di lantai 3 . Tempatnya ada bar , indoor , dan outdoor . Konsep cafe nya ala - ala bohemian gitu . Makanan yang di pesen waktu itu kebanyakan lagi ga available . Kaki naga nya fav banget apalagi sambelnya enak banget harganya juga murah . Ada telor dadar campur ayam sama nasi gitu lupa namanya plus kecap asin dengan irisan cabai dan bawang daun enak banget . Minumannya juga ada juice , kopi , dam tea .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="17">
+		<text> Coba Macaroni Panggang yang ktnya hits di Bogor , saya pesan macaroni panggang medium , tuna salad dan latte . Macaroni Panggangnya lumayan , tuna salad porsinya besar tapi rasanya biasa yah malahan seperti salad di pizza hut . Pelayanannya ramah , dan tempatnya lumayan cozy walaupun cukup crowded .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="18">
+		<text> Supeeer ! Yang paling super adalah pelayanannya yang super cepat . Beneran . Gue pesen sesuatu , 5 menit kemudian dateng . Bener-bener cepet pelayanannya . Buat urusan rasa juga enak . Kalo lagi super laper dan lagi ngirit , wah pesen cheese cream macaroni udah paling bener . Panna cottanya juga lumayan , tapi terlalu sedikit selai strawberrynya dan bikin agak blenek karena kebanyakan .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="19">
+		<text> Letaknya deket sama twostories , untung ga gitu ramai jadi pas sampe langsung makan . Makanannya lumayan , harganya juga biasa aja , tidak mengecewakan , servicenya cepat , banyak tempat charger so kalo mau buat tugas bawa laptop disini lumayan enak , tapi AC nya gak terlalu nampol aja . tempatnya juga oke .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="20">
+		<text> Terunik , susu gorengnya enak ( leiche freite ) . Kentang gorengnya juga enak , secara ada pakai truffle oilnya . Makanannya waktu itu saya pesan lunch set spaghetti aglio olio with chicken ( 65k include ice tea ) , enak juga . Pelayannya ramah banget , mau tolongin foto-fotoin , secara tempatnya bagus di sana walau kecil lahannya . Suasananya nyaman buat santai ngobrol-ngobrol cantik .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="21">
+		<text> Baru banget kemaren gue dan temen2 kesini untuk ngerayain ulang tahun gue . Lokasi restorannya di pinggir gitu , kalo mau duduk di luar juga bisa , tapi kalau mendung gue saranin jangan ( karena kalo hujan repot ) . Restoran ini cocok banget buat foto2 cantik , terus pelayanannya oke banget , makanan gue sama temen2 gue udah jadi kurang dari 15 menit ! Gue seneng banget karena udah kelaperan . Gue pesen beef mac and cheese , enak banget pol ! Cheese nya kerasa . Dan Untuk harga juga masih standard buat restoran fancy kayak Bottega : )</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="22">
+		<text> Makanannya enak , tempatnya enak , pelayanannya juga oke . Boleh di coba buat yang pingin nongkrong nongkrong cantik sambil ngobrol , soalnya tmptnya ga berisik</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="23">
+		<text> Nyobain kopi take away dari sini lagi2 manual brew V60 ( that &apos;s my favorite ) dengan coffee beans Bali . Rasanya enaaak ! Pelayanannya juga cepat . Tempatnya disini cozy , tapi lebih cozy yg non smokingnya karena lumayan luas dibanding smoking area yg kecil dan sempit . Btw disini juga jual coffee stuff yg lucu2 lho</text>
+		<aspects>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="24">
+		<text> Kedai soto favorit yang wajib di coba . Semua sotonya rasanya enak dan netral , bisa di bumbui lagi sesuai selera . Top banget ! Tempat nyaman dan bersih , cocok buat makan sama keluarga</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="25">
+		<text> Bukan pertama kalinya sih makan di Monolog . Biasanya kemari hanya sekedar minum kopi sambil ngobrol sama teman . Kemarin saya pesan Pho Noodle , carrot punch dan hot chamomile . Pho noodle nya enak , kuahnya gurih banget . Sayang karena sudah malam banyak menu yang sudah habis . Carrot punchnya segar banget dan enak . Tempatnya oke , pelayanan ramah dan cepat tanggap . Cocok buat kumpul bareng teman .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="26">
+		<text> Sebenarnya Coco Curry di Jakarta was n&apos;t bad at all . Apalagi buat yg baru pertama kali makan Coco Curry ya . Tapi sebagai foodies yang justru pertama kali coba nya di luar negeri ( wkt itu di Shanghai ) , malah berasa yang di Jakarta rasa nya kurang wah . Terakhir coba di Singapore dan Thailand masih konsistent enak . Mungkin karena yang di Jakarta halal ya ? Soalnya hanya di Jakarta yg gak ada menu Pork nya . Jadi setiap makan berasa kurang aja : )</text>
+		<aspects>
+			<aspect category="FOOD" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="27">
+		<text> Akhirnya memilih keyaki untuk dinner brg berdua sm bokap . Sbnrnya bokap yg milih sih , mungkin dia pgn nostalgia jg kali udh lama bgt ga kesini , secara keyaki ini adalah salah satu bekas tempat kerja nya bokap di jaman dulu kala , salah satu waitersnya pun masih kenal sama bokap dan malah mereka ngobrol berdua : D Btw , gw disini order robatayaki nya . Yg gw sangat suka sih gyu koshiyaki nya , itu enak bgt ! Dagingnya tebel dan sangat empuk ! Nyum bgt pokoknya . Dan nama nama makanan yg lainnya gw lupa apa aja yang bokap pesen.. But untuk rasa makanan keseluruhan sangat sangat baik . Recommend deh pokoknya : ) staff nya juga ramah2 bgt . Next time pengen kesini lagi .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="28">
+		<text> Numpang review Putien yang di PIK . Dari segi rasa sangat sesuai ekspektasi . Saya pesan bayam telur asin &amp;&amp; oyster ala Putien . Enak bangeet . Saya pikir awalnya bayam dicampur telur asin rasanya akan aneh , ternyata enak loh . Rasa telur asinnya &apos;light &apos; tapi tetap berasa . Untuk oysternya digoreng tepung . Pas banget dicocol sama sambal Putien yang pedas asam . Satu hal yang menurut saya kurang di resto Putien cabang PIK ini yaitu servicenya . Staff tidak merespon dengan cepat request customer , padahal tidak sedang dalam jam sibuk .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="29">
+		<text> Dulu sering banget makan di sini buat family dinner~~ tapi sekarang harganya makin tinggi , dan stelah baca2 ternyata dpet michelin star ya ? Tapi jadi brasa bnget mahalnya.. makanannya enak sih , krasa ga pke msg dan cabai yg dikasih juga enak . Bumbunya beda dari chinese food resto lain2 . Fav ku di sini tahu yg gambarnya aku upload . Dan porsinya juga kecil di sini.. yang pasti udh ga bka visit resto ini sesering dolo xp</text>
+		<aspects>
+			<aspect category="PRICE" polarity="NEGATIVE"/>
+		</aspects>
+	</review>
+	<review rid="30">
+		<text> Makanannya enak , terutama wagyu nya the best . Waitress ny jg ramah sekali , service nya memuaskan ! Surely will comeback here again</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="31">
+		<text> tempatnya enak , servicenya bagus dan waiternya ramah bgt . Makanannya utk wagyu beef n seafoodnya fresh bgt . Dpet free edamame n ocha jg . Harganya jg ok affordable</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="32">
+		<text> Ini masih jadi ice cream favorit sampe saat ini waktu itu kesini pesen yg dark chocolate nya &amp;&amp; rasanya pas banget manisnya , uda gtu ni tempat lucu gtu dia juga ada jual permen yg lucu2 service nya lumayan kok . Tempatnya pewe buat lama2 .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="33">
+		<text> ini tempat favorit keluarga . makanan nya enak enak , pilihan menu nya banyak , 1harga nya pas , dan pelayanan nya super ramah dari semua pelayan nya . lokasinya jg gak terlalu jauh . cocok untuk acara keluarga</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="34">
+		<text> Uda beberapa kali makan di sini . Overall enak2 menunya . Recommend ox tounge don-nya . Enak , porsi pas dan gak amis krn dari sapi wagyu . Pastanya juga enak . Utk minuman , mocktailnya enak2 . Service ok. Mungkin kalo lagi jam makan harus waiting list sebentar . Pelayannya ramah dan cepat tanggap . Resto bersih . Rasa makanan enak dan harga worth it utk rasa yg enak .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="35">
+		<text> Paling suka di sini sama pastanya . Porsinya terlihat kecil tp ternyata ngenyangin bgt . Tempatnya juga cukup pewe buat ngobrol lama2 . Service nya oke , semua sigap dan ramah .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="36">
+		<text> Burger kurang lebih ukuranya 1kg . Rasanya enak , dagingnya juga tebel . Waktu makan ini ber4 dan cewe semua jadi kentangnya gak abis . Untuk harga standarlah dengan harga segity dapet burger yang besar .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="37">
+		<text> Resto italian food yang boleh dicoba , ruangan terlihat luas karena tempatnya semi outdoor , pasta nya yummy banget , enaknya lagi kalo makan sambil ngumpul brg temen or family . Suasananya warm and comforting .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="38">
+		<text> Blenger burger ini udah terkenal banget sama antriannya yang lumayan buat belajar sabar haha . Tapi its a worth to wait kok . Harganya murah ! Porsinya besar , rotinya lembut dan rasa dagingnya khas .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="39">
+		<text> Tempatnya enak banget buat makan ditepi sungai gt , adem dan makanannya enak . Waktu itu beli sosis yg melingkar gt , lumpia dan sosis yg kecil2 . Lumpianya enak dan recommended buat dicoba ! Susunya juga masih enak dan seger banget . Kue2nya juga enak dan recommended buat di coba .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="40">
+		<text> Tempatnya bagus , makanannya enak . saya makan dimsum disini , enak rasanya . pelayannya banyak jadi mudah mencari dan memanggilnya . harganya lumayan , tapi kebayar dengan rasa makanannya . untuk minuman bisa pitcher yang teh . max 2 jenis teh untuk pitchernya.. harga dihitung dari jumlah gelasnya .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="41">
+		<text> Tempatnya enak buat nongkrong . Tp makanannya biasa aja sih , cm ambiance dan pelayanannya oke lah . Will come back just for hangout . Babinya biasa aja , Aglio Olio juga biasa aja .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="NEGATIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="42">
+		<text> Baru kesini lagi setelah renovasi dan gw lebih suka yang sekarang . Makanan tetep enak service oke lah , harga masih oke . Tapi tempat jadi lebih nyaman di banding dulu</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="43">
+		<text> Gilaaaa ... .. keren banget ini tempat , pas gw kesini gw cobain saladnya enaknya minta ampun . Awalnya gw gk tau restoran ini , eh temen gw ngajakin kesini dan akhirnya gw gk nyesel datang ke tempat ini .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="44">
+		<text> Fav buffet ! Tempatnya luas , meski kalau weekend pasti rame . enakan weekdays sih karena sepii . pelayanannya baik banget , mkanannya cepat datang . pilih yang kintan buffet juga udah cukuppp banget bikin kenyangnya ! ! Jarang ambil makanan yang tersedia sih , cuman seringnya ambil corn butternya karena gurihhh enak !</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="45">
+		<text> Tempatnya lucu banget , banyak hiasan lucu dan lumayan rame bisa buat smoking juga di depan . Lalu makanannya juga enak . Sebenernya gw juga ud beberapa kali kesini dan ga mengecewakan kok .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="46">
+		<text> Tempat yang fancy dengan service sangat memuaskan selain itu makanannya juga sangat enak . Terlihat ada beberapa bule kesini waktu jam makan siang . Kalo weekend disini penuh banget jAdi gw prefer kesini pas jam makan siang aja . So nice .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="47">
+		<text> Puas banget gw makan di sini sama temen gw , rasanya memuaskan semua . Baru tau gw kalo di sini ada all you can eatnya . Pelayanannya ramah-ramah .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="48">
+		<text> Waktu kesini cuma coba minuman plus ngemil2 cantik . Cemilannya enak , tampilan jg ok , minuman jg ok , pelayanan ok , tempat cozy.. cucok buat ngobrol2 dan foto tentunya .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="49">
+		<text> Seru banget loh guys kalo kumpul-kumpul bareng teman atau nongkrong melepas lelah di Matcha Fuku Cengkareng soalnya tempat nya dingin dan menu makanan dan minumannya enak-enak banget , biasanya kalo kesana saya pesan Popcorn Mallow meskipun harganya lumayan mahal tapi gak rugi deh kalo makan disana .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="PRICE" polarity="NEGATIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+	<review rid="50">
+		<text> tempat makanan jepang yang recomended banget nih . ramen karai nya enak banget , bisa pilih level pedesnya . dekorasi tempat nya juga bagus dan pelayanannya juga cukup baik .</text>
+		<aspects>
+			<aspect category="FOOD" polarity="POSITIVE"/>
+			<aspect category="AMBIENCE" polarity="POSITIVE"/>
+			<aspect category="SERVICE" polarity="POSITIVE"/>
+		</aspects>
+	</review>
+</corpus>
