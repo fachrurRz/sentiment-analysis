@@ -13,12 +13,13 @@ raw_reviews = collection.getElementsByTagName("review")
 def get_reviews():
     reviews = []
     for raw_review in raw_reviews:
+        id = raw_review.getAttribute('rid')
         text_tag = raw_review.getElementsByTagName('text')[0]
         text = text_tag.childNodes[0].data
         aspects_tag = raw_review.getElementsByTagName('aspects')[0]
         aspects = aspects_tag.getElementsByTagName('aspect')
 
-        review = Review(text)
+        review = Review(id, text)
         for aspect_tag in aspects:
             if aspect_tag.getAttribute('category') == 'FOOD':
                 food = aspect_tag.getAttribute('polarity')
@@ -35,5 +36,3 @@ def get_reviews():
         reviews.append(review)
 
     return reviews
-
-

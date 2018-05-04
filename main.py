@@ -1,8 +1,15 @@
+from preprocess.parsing import *
+from preprocess.utils import *
+import time
 import os
 import sys
+import json
+
+
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+start_time = time.time()
 
-from preprocess.parsing import get_reviews
+# put your program here
 
 
-get_reviews()
+print("--- %s seconds ---" % (time.time() - start_time))

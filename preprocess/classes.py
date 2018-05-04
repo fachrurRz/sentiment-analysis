@@ -4,9 +4,11 @@ class Review:
     price = None
     service = None
     ambiance = None
+    id = None
 
-    def __init__(self, text):
+    def __init__(self, id, text):
         self.text = text
+        self.id = id
 
     def set_food(self, food):
         if food == 'POSITIVE':
