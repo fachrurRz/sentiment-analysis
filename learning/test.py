@@ -1,5 +1,5 @@
 from .prepare import ReviewMatrix
-from .bernoulliNB import train_food_reviews, train_price_reviews, \
+from .train import train_food_reviews, train_price_reviews, \
     train_service_reviews, train_ambience_reviews
 
 def predict_reviews(review_matrix):
