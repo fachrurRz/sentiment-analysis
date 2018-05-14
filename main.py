@@ -14,8 +14,9 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 start_time = time.time()
 
 # put your program here
+print("--- Loading training data ---")
 df = pd.read_csv('train.csv')
-reviews = df.asmatrix()
+reviews = df.as_matrix()
 matrix = build_review_matrix(reviews[:,2:-4], reviews[:,-4], reviews[:,-3], reviews[:,-2], reviews[:,-1])
 
 print("--- Starting to train ---")
@@ -30,7 +31,9 @@ df = pd.read_csv('test.csv')
 pred = df.asmatrix()
 pred_matrix = build_review_matrix(pred[:,2:-4], pred[:,-4], pred[:,-3], pred[:,-2], pred[:,-1])
 
-prediction = predict_reviews(matrix)
+print("--- Finish loading testing data, predicting... ---")
+
+prediction = predict_reviews(pred_matrix)
 predicted_df = pd.Dataframe()
 predicted_df['rid'] = reviews[:,0]
 predicted_df['FOOD'] = prediction.food_matrix
