@@ -19,7 +19,8 @@ def train_food_reviews(review_matrix):
     if nb:
         return nb
     nb = MultinomialNB()
-    features = vectorize(review_matrix)
+    # features = vectorize(review_matrix)
+    features = review_matrix
     nb.fit(features, review_matrix.food_matrix)
     joblib.dump(nb, 'food.pkl')
     return nb
@@ -29,7 +30,8 @@ def train_price_reviews(review_matrix):
     if nb:
         return nb
     nb = MultinomialNB()
-    features = vectorize(review_matrix)
+    # features = vectorize(review_matrix)
+    features = review_matrix
     nb.fit(features, review_matrix.price_matrix)
     joblib.dump(nb, 'price.pkl')
     return nb
@@ -39,7 +41,8 @@ def train_service_reviews(review_matrix):
     if nb:
         return nb
     nb = MultinomialNB()
-    features = vectorize(review_matrix)
+    # features = vectorize(review_matrix)
+    features = review_matrix
     nb.fit(features, review_matrix.service_matrix)
     joblib.dump(nb, 'service.pkl')
     return nb
@@ -49,7 +52,8 @@ def train_ambience_reviews(review_matrix):
     if nb:
         return nb
     nb = MultinomialNB()
-    features = vectorize(review_matrix)
+    # features = vectorize(review_matrix)
+    features = review_matrix
     nb.fit(features, review_matrix.ambience_matrix)
     joblib.dump(nb, 'ambience.pkl')
     return nb

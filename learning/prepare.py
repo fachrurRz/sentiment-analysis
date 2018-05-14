@@ -1,11 +1,6 @@
 review_matrix = None
 
 class ReviewMatrix:
-    text_matrix = []
-    food_matrix = []
-    price_matrix = []
-    service_matrix = []
-    ambience_matrix = []
 
     def __init__(self, text_matrix=[], food_matrix=[],
                  price_matrix=[], service_matrix=[], ambience_matrix=[]):
@@ -16,9 +11,25 @@ class ReviewMatrix:
         self.ambience_matrix = ambience_matrix
 
 
-def build_review_matrix(reviews):
+def build_review_matrix(text_matrix=[], food_matrix=[],
+                 price_matrix=[], service_matrix=[], ambience_matrix=[], forced=False):
     global review_matrix
-    if review_matrix is not None:
+    if review_matrix is not None and not forced:
+        return review_matrix
+    m = ReviewMatrix()
+    m.text_matrix = text_matrix
+    m.food_matrix = food_matrix
+    m.price_matrix = price_matrix
+    m.service_matrix = service_matrix
+    m.ambience_matrix = ambience_matrix
+    review_matrix = m
+
+    return m
+
+
+def build_from_objects(reviews, forced=False):
+    global review_matrix
+    if review_matrix is not None and not forced:
         return review_matrix
 
     matrix = ReviewMatrix()
