@@ -36,6 +36,8 @@ def train_food_maxent(reviews):
 
         maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
 
+        joblib.dump(maxent_classifier, 'me_food.pkl')
+
         return maxent_classifier
 
 def train_price_maxent(reviews):
@@ -51,7 +53,7 @@ def train_price_maxent(reviews):
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
         maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
-
+        joblib.dump(maxent_classifier, 'me_price.pkl')
         return maxent_classifier
 
 def train_service_maxent(reviews):
@@ -67,7 +69,7 @@ def train_service_maxent(reviews):
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
         maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
-
+        joblib.dump(maxent_classifier, 'me_service.pkl')
         return maxent_classifier
 
 def train_ambience_maxent(reviews):
@@ -83,7 +85,7 @@ def train_ambience_maxent(reviews):
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
         maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
-
+        joblib.dump(maxent_classifier, 'me_ambience.pkl')
         return maxent_classifier
 
 
@@ -94,6 +96,12 @@ def test_maxent(reviews):
     return res
 
 def test_aspect(reviews, aspect):
+    d = {
+        'food': 0,
+        'price': 1,
+        'service': 2,
+        'ambience': 3
+    }
     model = None
     if aspect == 'food':
         model = train_food_maxent(reviews)
