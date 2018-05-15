@@ -34,7 +34,7 @@ def train_food_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
 
         joblib.dump(maxent_classifier, 'me_food.pkl')
 
@@ -52,7 +52,7 @@ def train_price_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
         joblib.dump(maxent_classifier, 'me_price.pkl')
         return maxent_classifier
 
@@ -68,7 +68,7 @@ def train_service_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
         joblib.dump(maxent_classifier, 'me_service.pkl')
         return maxent_classifier
 
@@ -84,7 +84,7 @@ def train_ambience_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
         joblib.dump(maxent_classifier, 'me_ambience.pkl')
         return maxent_classifier
 
@@ -109,14 +109,14 @@ def test_aspect(reviews, aspect):
         model = train_price_maxent(reviews)
     elif aspect == 'service':
         model = train_service_maxent(reviews)
-    else:
+    elif aspect == 'ambience':
         model = train_ambience_maxent(reviews)
 
     documents = prepare_documents(reviews, d[aspect])
 
     word_features = get_word_features(reviews)
 
-    featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+    featuresets = [document_features(d, word_features) for (d, c) in documents]
 
     preds = []
     for f in featuresets:

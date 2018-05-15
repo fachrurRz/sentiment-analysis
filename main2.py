@@ -30,9 +30,9 @@ for item in json_array:
 
 print("--- Starting to train ---")
 train_food_maxent(reviews)
-train_price_reviews(reviews)
-train_ambience_reviews(reviews)
-train_service_reviews(reviews)
+train_price_maxent(reviews)
+train_ambience_maxent(reviews)
+train_service_maxent(reviews)
 
 
 print("--- Finish training, loading testing data ---")
@@ -52,9 +52,14 @@ print("Test data len:", len(test_reviews))
 
 print("--- Finish loading testing data, predicting ---")
 res = test_maxent(test_reviews)
-files = open('prediction.txt','w')
-files.write(res)
-files.close()
+
+predicted_df = pd.DataFrame()
+predicted_df['rid'] = [t['rid'] for t in test_reviews]
+predicted_df['FOOD'] = res[0]
+predicted_df['PRICE'] = res[1]
+predicted_df['SERVICE'] = res[2]
+predicted_df['AMBIENCE'] = res[3]
+predicted_df.to_csv('me_prediction.csv')
 
 print("--- Finish predicting, loading accuracy ---")
 
