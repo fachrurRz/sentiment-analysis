@@ -117,8 +117,12 @@ def test_aspect(reviews, aspect):
     word_features = get_word_features(reviews)
 
     featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
-    pred = model.classify(featuresets)
-    return pred
+
+    preds = []
+    for f in featuresets:
+        pred = model.classify(f)
+        preds.append(pred)
+    return preds
 
 def count_accuracy_maxent(aspect, reviews):
     d = {

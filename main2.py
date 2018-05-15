@@ -36,7 +36,6 @@ train_service_reviews(reviews)
 
 
 print("--- Finish training, loading testing data ---")
-print("--- Loading training data ---")
 
 input_file = open ('tests.json')
 json_array = json.load(input_file)
@@ -48,6 +47,8 @@ for item in json_array:
     r['words'] = item['words']
     r['aspects'] = item['aspects']
     test_reviews.append(r)
+
+print("Test data len:", len(test_reviews))
 
 print("--- Finish loading testing data, predicting ---")
 res = test_maxent(test_reviews)
