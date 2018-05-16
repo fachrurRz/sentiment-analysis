@@ -168,7 +168,7 @@ def get_review_text():
 
 
 def remove_stop_words():
-    json_data = open('reviews.json').read()
+    json_data = open('tests.json').read()
 
     reviews = json.loads(json_data)
 
