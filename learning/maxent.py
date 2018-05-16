@@ -1,9 +1,21 @@
 import nltk
 from sklearn.externals import joblib
+from nltk import ngrams
+ 
 
+def bag_of_words(words):
+    return dict([(word, True) for word in words])
 
-def prepare_documents(reviews, idx):
-    documents = [(review['words'], review['aspects'][idx]) for review in reviews]
+def bag_of_ngrams(words, n=2):
+    ngs = [ng for ng in iter(ngrams(words, n))]
+    return bag_of_words(ngs)
+
+def ngram_features(documents):
+    data_sets = [(bag_of_ngrams(d), c) for (d, c) in documents]
+    return data_sets
+
+def prepare_documents(reviews, idx, test=False):
+    documents = [(review['words'], review['aspects'][idx]) for review in reviews if review['aspects'][idx] != 0 or test]
     return documents
 
 def get_word_features(reviews):
@@ -32,9 +44,10 @@ def train_food_maxent(reviews):
 
         word_features = get_word_features(reviews)
 
-        featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        # featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        featuresets = ngram_features(documents)
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25, algorithm='megam', labels=[0,1,-1])
 
         joblib.dump(maxent_classifier, 'me_food.pkl')
 
@@ -50,9 +63,10 @@ def train_price_maxent(reviews):
 
         word_features = get_word_features(reviews)
 
-        featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        # featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        featuresets = ngram_features(documents)
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25, algorithm='megam', labels=[0,1,-1])
         joblib.dump(maxent_classifier, 'me_price.pkl')
         return maxent_classifier
 
@@ -66,9 +80,10 @@ def train_service_maxent(reviews):
 
         word_features = get_word_features(reviews)
 
-        featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        # featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        featuresets = ngram_features(documents)
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25, algorithm='megam', labels=[0,1,-1])
         joblib.dump(maxent_classifier, 'me_service.pkl')
         return maxent_classifier
 
@@ -82,9 +97,10 @@ def train_ambience_maxent(reviews):
 
         word_features = get_word_features(reviews)
 
-        featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        # featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
+        featuresets = ngram_features(documents)
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=25, algorithm='megam', labels=[0,1,-1])
         joblib.dump(maxent_classifier, 'me_ambience.pkl')
         return maxent_classifier
 
@@ -112,7 +128,7 @@ def test_aspect(reviews, aspect):
     elif aspect == 'ambience':
         model = train_ambience_maxent(reviews)
 
-    documents = prepare_documents(reviews, d[aspect])
+    documents = prepare_documents(reviews, d[aspect], True)
 
     word_features = get_word_features(reviews)
 
@@ -133,7 +149,7 @@ def count_accuracy_maxent(aspect, reviews):
     }
     model = joblib.load('me_{}.pkl'.format(aspect))
 
-    documents = prepare_documents(reviews, d[aspect])
+    documents = prepare_documents(reviews, d[aspect], True)
 
     word_features = get_word_features(reviews)
 

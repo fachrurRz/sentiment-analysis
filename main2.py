@@ -17,7 +17,7 @@ start_time = time.time()
 
 print("--- Loading training data ---")
 
-input_file = open ('reviews.json')
+input_file = open ('reviews_final.json')
 json_array = json.load(input_file)
 reviews = []
 
@@ -37,7 +37,7 @@ train_service_maxent(reviews)
 
 print("--- Finish training, loading testing data ---")
 
-input_file = open ('tests.json')
+input_file = open ('tests_final.json')
 json_array = json.load(input_file)
 test_reviews = []
 
@@ -55,6 +55,11 @@ res = test_maxent(test_reviews)
 
 predicted_df = pd.DataFrame()
 predicted_df['rid'] = [t['rid'] for t in test_reviews]
+print(predicted_df.shape)
+print(len(res[0]))
+print(len(res[1]))
+print(len(res[2]))
+print(len(res[3]))
 predicted_df['FOOD'] = res[0]
 predicted_df['PRICE'] = res[1]
 predicted_df['SERVICE'] = res[2]
