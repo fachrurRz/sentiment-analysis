@@ -59,15 +59,10 @@ print("--- Finish loading testing data, predicting... ---")
 prediction = predict_reviews(pred_matrix)
 predicted_df = pd.DataFrame()
 predicted_df['rid'] = [r.id for r in testreviews]
-print(len(testreviews))
-print(len(prediction.food_matrix))
-print(len(prediction.price_matrix))
-print(len(prediction.service_matrix))
-print(len(prediction.ambience_matrix))
-predicted_df['FOOD'] = prediction.food_matrix[:-2000]
-predicted_df['PRICE'] = prediction.price_matrix[:-2000]
-predicted_df['SERVICE'] = prediction.service_matrix[:-2000]
-predicted_df['AMBIENCE'] = prediction.ambience_matrix[:-2000]
+predicted_df['FOOD'] = prediction.food_matrix[-2000:]
+predicted_df['PRICE'] = prediction.price_matrix[-2000:]
+predicted_df['SERVICE'] = prediction.service_matrix[-2000:]
+predicted_df['AMBIENCE'] = prediction.ambience_matrix[-2000:]
 
 predicted_df.to_csv('prediction.csv')
 
