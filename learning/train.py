@@ -3,15 +3,27 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.externals import joblib
 
 train_features = None
+vect = None
+vocab = None
 
 def vectorize(review_matrix):
     global train_features
+    global vect
+    global vocab
+    vector = CountVectorizer()
     if train_features is not None:
         return train_features
-    vect = CountVectorizer()
-    train = vect.fit_transform(review_matrix.text_matrix)
+    train = vector.fit_transform(review_matrix.text_matrix)
+    vect = vector
+    vocab = list(vect.vocabulary_.keys())
     train_features = train
     return train_features
+
+def get_vocabulary():
+    return vocab
+
+def get_vectorizer():
+    return vect
 
 def train_food_reviews(review_matrix):
     try:

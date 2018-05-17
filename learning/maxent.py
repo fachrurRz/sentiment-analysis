@@ -3,7 +3,7 @@ from sklearn.externals import joblib
 
 
 def prepare_documents(reviews, idx):
-    documents = [(review['words'], review['aspects'][idx]) for review in reviews]
+    documents = [(review['words'], str(review['aspects'][idx])) for review in reviews]
     return documents
 
 def get_word_features(reviews):
@@ -12,7 +12,7 @@ def get_word_features(reviews):
         for w in r['words']:
             ws.append(w)
     all_words = nltk.FreqDist(ws) 
-    word_features = list(all_words.keys())[:2000]
+    word_features = list(all_words.keys())[:1000]
     return word_features
 
 def document_features(document, word_features):
@@ -34,7 +34,7 @@ def train_food_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10, algorithm='GIS', labels=['-1','0','1'])
 
         joblib.dump(maxent_classifier, 'me_food.pkl')
 
@@ -52,7 +52,7 @@ def train_price_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10, algorithm='GIS', labels=['-1','0','1'])
         joblib.dump(maxent_classifier, 'me_price.pkl')
         return maxent_classifier
 
@@ -68,7 +68,7 @@ def train_service_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10, algorithm='GIS', labels=['-1','0','1'])
         joblib.dump(maxent_classifier, 'me_service.pkl')
         return maxent_classifier
 
@@ -84,7 +84,7 @@ def train_ambience_maxent(reviews):
 
         featuresets = [(document_features(d, word_features), c) for (d, c) in documents]
 
-        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10)
+        maxent_classifier = nltk.MaxentClassifier.train(featuresets, max_iter=10, algorithm='GIS', labels=['-1','0','1'])
         joblib.dump(maxent_classifier, 'me_ambience.pkl')
         return maxent_classifier
 

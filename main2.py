@@ -17,7 +17,7 @@ start_time = time.time()
 
 print("--- Loading training data ---")
 
-input_file = open ('reviews.json')
+input_file = open ('reviews_final.json')
 json_array = json.load(input_file)
 reviews = []
 
@@ -37,7 +37,7 @@ train_service_maxent(reviews)
 
 print("--- Finish training, loading testing data ---")
 
-input_file = open ('tests.json')
+input_file = open ('tests_final.json')
 json_array = json.load(input_file)
 test_reviews = []
 

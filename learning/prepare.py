@@ -1,3 +1,5 @@
+from .train import *
+
 review_matrix = None
 
 class ReviewMatrix:
@@ -34,11 +36,17 @@ def build_from_objects(reviews, forced=False):
 
     matrix = ReviewMatrix()
     for r in reviews:
-        matrix.text_matrix.append(r.text)
+        text = r.text
+        if forced:
+            v = get_vocabulary()
+            for w in r.text:
+                if w not in v:
+                    text.remove(w)
+        matrix.text_matrix.append(" ".join(text))
         matrix.food_matrix.append(r.food)
         matrix.price_matrix.append(r.price)
         matrix.service_matrix.append(r.service)
-        matrix.ambience_matrix.append(r.ambience)
+        matrix.ambience_matrix.append(r.ambiance)
     review_matrix = matrix
 
     return matrix
