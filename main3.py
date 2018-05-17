@@ -23,10 +23,12 @@ reviews = []
 for item in json_array:
     r = Review(item['rid'], item['words'])
     a = item['aspects']
+    print(a, type(a[0]))
     r.set_food(a[0])
     r.set_price(a[1])
     r.set_service(a[2])
     r.set_ambiance(a[3])
+    print(r.food, r.price, r.service, r.ambiance, '\n')
     reviews.append(r)
 
 matrix = build_from_objects(reviews)

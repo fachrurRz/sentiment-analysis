@@ -11,29 +11,33 @@ class Review:
         self.id = id
 
     def set_food(self, food):
-        if food == 'POSITIVE':
-            self.food = '1'
-        elif food == 'NEGATIVE':
-            self.food = '-1'
-        self.food = '0'
+        self.food = str(food)
+        # if food == 1:
+        #     self.food = '1'
+        # elif food == -1:
+        #     self.food = '-1'
+        # self.food = '5'
 
     def set_price(self, price):
-        if price == 'POSITIVE':
-            self.price = '1'
-        elif price == 'NEGATIVE':
-            self.price = '-1'
-        self.price = '0'
+        self.price = str(price)
+        # if price == 1:
+        #     self.price = '1'
+        # elif price == -1:
+        #     self.price = '-1'
+        # self.price = '5'
 
     def set_service(self, service):
-        if service == 'POSITIVE':
-            self.service = '1'
-        elif service == 'NEGATIVE':
-            self.service = '-1'
-        self.service = '0'
+        self.service = str(service)
+        # if service == 1:
+        #     self.service = '1'
+        # elif service == -1:
+        #     self.service = '-1'
+        # self.service = '5'
 
     def set_ambiance(self, ambiance):
-        if ambiance == 'POSITIVE':
-            self.ambiance = '1'
-        elif ambiance == 'NEGATIVE':
-            self.ambiance = '-1'
-        self.ambiance = '0'
+        # if ambiance == 1:
+        #     self.ambiance = '1'
+        # elif ambiance == -1:
+        #     self.ambiance = '-1'
+        # self.ambiance = '5'
+        self.ambiance = str(ambiance)

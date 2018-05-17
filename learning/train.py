@@ -28,6 +28,7 @@ def get_vectorizer():
 def train_food_reviews(review_matrix):
     try:
         nb = joblib.load('food.pkl')
+        
         if nb:
             return nb
     except:
@@ -35,12 +36,14 @@ def train_food_reviews(review_matrix):
         features = vectorize(review_matrix)
         # features = review_matrix.text_matrix
         nb.fit(features, review_matrix.food_matrix)
+        # print(review_matrix.food_matrix)
         joblib.dump(nb, 'food.pkl')
         return nb
 
 def train_price_reviews(review_matrix):
     try:
         nb = joblib.load('price.pkl')
+        
         if nb:
             return nb
     except:
@@ -54,6 +57,7 @@ def train_price_reviews(review_matrix):
 def train_service_reviews(review_matrix):
     try:
         nb = joblib.load('service.pkl')
+        
         if nb:
             return nb
     except:
@@ -67,6 +71,7 @@ def train_service_reviews(review_matrix):
 def train_ambience_reviews(review_matrix):
     try:
         nb = joblib.load('ambience.pkl')
+        
         if nb:
             return nb
     except:
