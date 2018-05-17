@@ -5,7 +5,7 @@ from langdetect import detect
 import json
 
 
-def get_bad_words():
+def get_bad_words(reviews):
     json_data = open('english_id.json').read()
 
     data = json.loads(json_data)
@@ -13,7 +13,7 @@ def get_bad_words():
     with open('indonesian-wordlist.txt', 'r') as f:
         for word in f:
             indonesian_words.add(word.strip('\n'))
-    reviews = get_reviews()
+    # reviews = get_reviews()
     factory = StemmerFactory()
     stemmer = factory.create_stemmer()
     non_formal_words = set()
@@ -34,10 +34,10 @@ def get_bad_words():
     return non_formal_words
 
 
-def get_english_review_id():
+def get_english_review_id(reviews):
     english_review_ids = []
 
-    reviews = get_reviews()
+    # reviews = get_reviews()
     for review in reviews:
         try:
             lang = detect(review.text)
