@@ -12,27 +12,27 @@ def predict_reviews(review_matrix):
 def predict_food(test_matrix):
     nb = train_food_reviews(test_matrix)
     vector = get_vectorizer()
-    vector = vector.transform(test_matrix.text_matrix)
-    predictions = nb.predict(vector)
+    test = vector.transform(test_matrix.text_matrix)
+    predictions = nb.predict(test)
     return predictions
 
 def predict_price(test_matrix):
     nb = train_price_reviews(test_matrix)
     vector = get_vectorizer()
-    vector = vector.transform(test_matrix.text_matrix)
-    predictions = nb.predict(vector)
+    test = vector.transform(test_matrix.text_matrix)
+    predictions = nb.predict(test)
     return predictions
 
 def predict_service(test_matrix):
     nb = train_service_reviews(test_matrix)
     vector = get_vectorizer()
-    vector = vector.transform(test_matrix.text_matrix)
-    predictions = nb.predict(vector)
+    test = vector.transform(test_matrix.text_matrix)
+    predictions = nb.predict(test)
     return predictions
 
 def predict_ambience(test_matrix):
     nb = train_ambience_reviews(test_matrix)
     vector = get_vectorizer()
-    vector = vector.transform(test_matrix.text_matrix)
-    predictions = nb.predict(vector)
+    test = vector.transform(test_matrix.text_matrix)
+    predictions = nb.predict(test)
     return predictions

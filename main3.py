@@ -39,7 +39,7 @@ train_service_reviews(matrix)
 
 print("--- Finish training, moving to testing ---")
 
-input_file = open ('reviews_final.json')
+input_file = open ('tests_final.json')
 json_array = json.load(input_file)
 testreviews = []
 
