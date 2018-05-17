@@ -1,5 +1,5 @@
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.externals import joblib
 
 train_features = None
@@ -11,6 +11,8 @@ def vectorize(review_matrix):
     global vect
     global vocab
     vector = CountVectorizer()
+    # vector = TfidfVectorizer()
+
     if train_features is not None:
         return train_features
     train = vector.fit_transform(review_matrix.text_matrix)
